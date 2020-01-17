@@ -10,28 +10,10 @@ Generally, recommender systems are algorithms aimed at suggesting relevant items
 
 As observed, some of fields are described by words which can not be recognized or processed easily by computers. Usually, **One Hot Encoding** is widely used.
 
->>**One Hot Encoding** can be applied to the integer representation. This is where the integer encoded variable is removed and a new binary variable is added for each unique integer value.
+>**One Hot Encoding** can be applied to the integer representation. This is where the integer encoded variable is removed and a new binary variable is added for each unique integer value.
 
 However, some fields like **UserID** and **MovieID** will become very sparse after one-hot encoding and the input dimension will become large dramatically. To solve this, the embedding layer is used as the first layer of the network.
 
 The movie recommender system model is deigned as follows:
 
 ![model_design](images/model_design.png)
-
-## Implementation
-
-### Data Preprocessing
-
-### Model Design
-
-#### Parameters
-
-#### Hyperparameters
-
-#### Create Input Function
-
-#### Build Neural Network
-
-#### Build Graph
-
-### Train, Evaluate and Predict
